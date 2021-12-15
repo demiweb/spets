@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+<section class="calculator-block">
+    <div class="img">
+        <img src="./img/bg-spets.svg" alt="">
+    </div>
+    <div class="container">
+        <div class="calculator__container">
+            <p class="calculator-title">
+                Калькулятор
+            </p>
+            <span class="calculator-sub">
+Расчет стоимости технического обслуживания инженерных систем и комплексной уборки административного здания
+            </span>
+            <div class="calculator__form">
+                <div class="form">
+                    <form action="">
+                        <div class="input-cont">
+                            <label for="">Общая площадь м²</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <p class="form-title">Перечень систем подлежащих техническому обслуживанию</p>
+                        <div class="input-cont">
+                            <label for="">ИТП, установок </label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Система общеобменной вентиляции, установок </label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Система локального холодоснабжения, установок </label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Лифты, подъёмники и эскалаторы, штук</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Трансформаторная подстанция, трансформаторов</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Источник бесперебойного питания мощностью более 10 кВт, установок</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Подъёмные и откатные ворота, шлагбаумы, штук</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Газовая котельная, котлов</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for=""> Система централизованного холодоснабжения, установок</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Система распределённого холодоснабжения, установок</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Автоматическое парковочное оборудование, машино-мест</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Основная энергетическая установка, установок</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Резервная энергетическая установка, установок</label>
+                            <input type="number" placeholder="0" min="0">
+                        </div>
+
+                        <div class="checkboxes">
+                            <div class="check-cont">
+                                <label for="check-1">
+                                    <input type="checkbox" id="check-1" name="check">
+                                    <span>Пожарный водопровод</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-2">
+                                    <input type="checkbox" id="check-2" name="check">
+                                    <span>Система диспетчеризации</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-3">
+                                    <input type="checkbox" id="check-3" name="check">
+                                    <span>Система автоматического оповещения о пожаре и аудио трансляций</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-4">
+                                    <input type="checkbox" id="check-4" name="check">
+                                    <span>Противодымная вентиляция</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-5">
+                                    <input type="checkbox" id="check-5" name="check">
+                                    <span>Система контроля доступа</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-6">
+                                    <input type="checkbox" id="check-6" name="check">
+                                    <span>Система тактирования</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-7">
+                                    <input type="checkbox" id="check-7" name="check">
+                                    <span>Взаимодействие с поставщиками коммунальных услуг, федеральными органами, ведение документации</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-7">
+                                    <input type="checkbox" id="check-8" name="check">
+                                    <span>Комплексная уборка</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-9">
+                                    <input type="checkbox" id="check-9" name="check">
+                                    <span>Система автоматического водяного пожаротушения</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-10">
+                                    <input type="checkbox" id="check-10" name="check">
+                                    <span>Система пожарной сигнализации</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-11">
+                                    <input type="checkbox" id="check-11" name="check">
+                                    <span>Система дымоудаления</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-12">
+                                    <input type="checkbox" id="check-12" name="check">
+                                    <span>Система видеонаблюдения</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-13">
+                                    <input type="checkbox" id="check-13" name="check">
+                                    <span>Система охранной сигнализации</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-14">
+                                    <input type="checkbox" id="check-14" name="check">
+                                    <span>Система эфирного и спутникового телевидения</span>
+                                </label>
+                            </div>
+                            <div class="check-cont">
+                                <label for="check-15">
+                                    <input type="checkbox" id="check-15" name="check">
+                                    <span>Сопровождение работ и вопросов, связанных с промышленной экологией</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn btn--white">Сброс данных</button>
+
+                    </form>
+                </div>
+
+                <div class="calc-total">
+                    <div class="calc-total__blue">
+                        <div>
+
+
+                            <p>Стоимость обслуживания за месяц</p>
+                            <small>Включая НДС</small>
+                        </div>
+                        <span>38 675 ₽</span>
+
+                    </div>
+                    <div class="calc-total__white">
+                        <div>
+
+
+                            <p>Стоимость обслуживания за год</p>
+                            <small>Включая НДС</small>
+                        </div>
+                        <span>464 094 ₽</span>
+                    </div>
+                </div>
+
+                <div class="form">
+                    <form action="">
+                        <p class="form-title"><strong>Запросить коммерческое предложение</strong></p>
+                        <div class="input-cont">
+                            <label for="">Ваше имя</label>
+                            <input type="text" placeholder="Илья Вершинен " >
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Компания</label>
+                            <input type="text" placeholder="Алиас" >
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Телефон</label>
+                            <input type="text" placeholder="+7 499 77 69 03" >
+                        </div>
+                        <div class="input-cont">
+                            <label for="">Email</label>
+                            <input type="text" placeholder="ilyar@gmai.com">
+                        </div>
+
+                        <div class="form-footer">
+                            <div class="form-captcha">
+
+                            </div>
+                            <button class="btn btn--blue">Отправить</button>
+
+                        </div>
+                    </form>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
